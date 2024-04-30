@@ -1,0 +1,71 @@
+{
+  "game_1": {
+    "total_kills": 0,
+    "players": [
+      "Isgalamido"
+    ],
+    "kills": {
+      "Isgalamido": 0
+    },
+    "kills_by_means": {
+}
+  },
+  "game_2": {
+    "total_kills": 11,
+    "players": [
+      "Isgalamido",
+      "Mocinha"
+    ],
+    "kills": {
+      "Mocinha": 0,
+      "Isgalamido": -9
+    },
+    "kills_by_means": {
+      "MOD_TRIGGER_HURT": 7,
+      "MOD_ROCKET_SPLASH": 3,
+      "MOD_FALLING": 1
+    }
+  },
+  "game_3": {
+    "total_kills": 4,
+    "players": [
+      "Dono da Bola",
+      "Isgalamido",
+      "Zeh"
+    ],
+    "kills": {
+      "Isgalamido": 1,
+      "Dono da Bola": -1,
+      "Zeh": -2
+    },
+    "kills_by_means": {
+      "MOD_ROCKET": 1,
+      "MOD_TRIGGER_HURT": 2,
+      "MOD_FALLING": 1
+    }
+  },
+  "game_4": {
+    "total_kills": 105,
+    "players": [
+      "Dono da Bola",
+      "Isgalamido",
+      "Zeh",
+      "Assasinu Credi"
+    ],
+    "kills": {
+      "Zeh": 20,
+      "Isgalamido": 19,
+      "Assasinu Credi": 11,
+      "Dono da Bola": 5
+    },
+    "kills_by_means": {
+      "MOD_TRIGGER_HURT": 9,
+      "MOD_FALLING": 11,
+      "MOD_ROCKET": 20,
+      "MOD_RAILGUN": 8,
+      "MOD_ROCKET_SPLASH": 51,
+      "MOD_MACHINEGUN": 4,
+      "MOD_SHOTGUN": 2
+    }
+  }
+}

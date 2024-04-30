@@ -1,0 +1,16 @@
+AllCops:
+  SuggestExtensions: false
+  NewCops: enable
+Style/Documentation:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: true # Ativa a verificação do tamanho do método
+  Max: 30 # Define o limite máximo para 30 linhas
+Metrics/AbcSize:
+  Enabled: true # Ativa a verificação do tamanho da atribuição, ramificação e complexidade ciclomática
+  Max: 30 # Define o limite máximo para 30 unidades (você pode ajustar conforme necessário)
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*' # Ignora os blocos de código nos arquivos de teste
+  Enabled: true # Ativa a verificação do tamanho do bloco de código
+  Max: 30 # Define o limite máximo para 30 linhas nos arquivos de teste
